@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align self</title>
+
+    <style>
+        .flex-container{
+            max-width: 350px;
+            margin-bottom: 10px;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orange;
+            text-align: center;
+            color: aliceblue;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="flex-container align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Teste teste teste teste teste</div>
+        <div class="item auto">item 4</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Teste teste teste teste teste teste teste teste teste teste teste teste</div>
+        <div class="item end">item 4</div>
+    </section>
+
+    <section class="flex-container">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item end">Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste</div>
+        <div class="item stretch">Teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste teste</div>
+    </section>
+</body>
+</html>
