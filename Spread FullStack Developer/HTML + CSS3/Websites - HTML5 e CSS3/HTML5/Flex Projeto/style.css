@@ -27,3 +27,11 @@ header{
     display: flex;
     align-items: center;
 }
+
+header .list-items{
+    display: flex;
+}
+
+header .menu{
+    justify-content: space-between;
+}
