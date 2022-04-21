@@ -74,3 +74,9 @@ header .menu{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#quem-somos{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+}
