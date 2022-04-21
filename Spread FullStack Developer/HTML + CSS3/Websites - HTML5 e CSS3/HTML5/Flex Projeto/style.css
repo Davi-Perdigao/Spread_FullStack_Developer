@@ -34,6 +34,7 @@ header .list-items{
     max-width: 260px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 
 .list-items li a{
@@ -65,4 +66,11 @@ header .menu{
     color: #fff;
     text-align: center;
     border-radius: 30px;
+    width: 220px;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
