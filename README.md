@@ -1,5 +1,9 @@
 # DESAFIOS - PLATAFORMA DIO
 
+## HTML + CSS (Flexbox)
+
+- [Interface Instagram](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Interface%20Instagram%20-%20HTML%20%2B%20CSS%20(Flexbox))
+
 ## Spread FullStack Developer
 
 - [Banco de Dados](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Spread%20FullStack%20Developer/Banco%20de%20Dados)
