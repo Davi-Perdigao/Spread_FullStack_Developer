@@ -253,6 +253,8 @@ footer .footer{
 
     .apresentacao{
         flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 20px;
     }
 
     .apresentacao .texto-apresentacao{
@@ -261,6 +263,8 @@ footer .footer{
 
     #quem-somos{
         flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-bottom: 20px;
     }
 
     #quem-somos img{
