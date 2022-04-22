@@ -33,7 +33,6 @@ header{
     display: flex;
     align-items: center;
     color: #fff;
-    width: 100%;
 }
 
 header .list-items{
@@ -50,7 +49,6 @@ header .list-items{
 
 header .menu{
     justify-content: space-between;
-    width: 100%;
 }
 
 .apresentacao{
