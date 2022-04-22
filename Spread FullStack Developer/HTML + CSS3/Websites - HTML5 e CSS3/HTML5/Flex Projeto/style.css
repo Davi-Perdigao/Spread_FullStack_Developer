@@ -21,7 +21,7 @@ div img{
 
 .flex-container{
     display: flex;
-    max-width: 1900px;
+    max-width: 992px;
     margin: auto;
     width: 100%;
     min-width: 320px;
@@ -33,6 +33,7 @@ header{
     display: flex;
     align-items: center;
     color: #fff;
+    max-width: max-content;
 }
 
 header .list-items{
