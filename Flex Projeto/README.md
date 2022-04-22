@@ -7,9 +7,9 @@
 
 ### Resultado Final 👁️:
 ***
- ![Foto Resultado1](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/projeto1.png?raw=true)
- ![Foto Resultado2](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/projeto2.png?raw=true)
- ![Foto Resultado3](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/projeto3.png?raw=true)
+ ![Foto Resultado1](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-1.png?raw=true)
+ ![Foto Resultado2](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-2.png?raw=true)
+ ![Foto Resultado3](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-3.png?raw=true)
 
 ***
 
