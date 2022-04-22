@@ -7,7 +7,7 @@
 
 ### Resultado Final 👁️:
 ***
- ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Instagram%20-%20HTML%20+%20CSS%20(Flexbox)/img/projeto-instagram.png?raw=true)
+ ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Interface%20Instagram%20-%20HTML%20+%20CSS%20(Flexbox)/img/projeto-instagram.png?raw=true)
 
 ***
 
