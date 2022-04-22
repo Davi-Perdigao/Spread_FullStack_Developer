@@ -23,7 +23,6 @@ div img{
     display: flex;
     max-width: 992px;
     margin: auto;
-    margin-top: auto;
     width: 100%;
     min-width: 320px;
 }
@@ -53,6 +52,7 @@ header .menu{
 }
 
 .apresentacao{
+    margin: auto;
     height: 100vh;
     align-items: center;
     justify-content: space-between;
