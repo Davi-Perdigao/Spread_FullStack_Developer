@@ -22,7 +22,8 @@ div img{
 .flex-container{
     display: flex;
     max-width: 992px;
-    margin: 30px;
+    margin: auto;
+    margin-top: auto;
     width: 100%;
     min-width: 320px;
 }
