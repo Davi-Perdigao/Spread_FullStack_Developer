@@ -1,7 +1,7 @@
 # Interface de Login do Instagram
 Recriando a página inicial do Instagram utilizando HTML e CSS.
 
-https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Spread%20FullStack%20Developer/HTML%20+%20CSS3/Instagram%20-%20HTML%20+%20CSS%20(Flexbox)/img/projeto-instagram.png?raw=true
+(https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Spread%20FullStack%20Developer/HTML%20+%20CSS3/Instagram%20-%20HTML%20+%20CSS%20(Flexbox)/img/projeto-instagram.png?raw=true)
 
 
 ------------
