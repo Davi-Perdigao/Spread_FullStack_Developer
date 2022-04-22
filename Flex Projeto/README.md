@@ -8,6 +8,8 @@
 ### Resultado Final 👁️:
 ***
  ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Interface%20Instagram/img/projeto-instagram.png)
+ ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Interface%20Instagram/img/projeto-instagram.png)
+ ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Interface%20Instagram/img/projeto-instagram.png)
 
 ***
 
