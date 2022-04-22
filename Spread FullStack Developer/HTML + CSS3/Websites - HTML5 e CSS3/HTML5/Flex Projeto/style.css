@@ -29,7 +29,7 @@ div img{
 
 header{
     background-color: #122A57;
-    width: 100%;
+    margin-left: 0px;    
     height: 100px;
     display: flex;
     align-items: center;
