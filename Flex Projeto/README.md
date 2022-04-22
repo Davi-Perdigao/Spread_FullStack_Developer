@@ -1,8 +1,8 @@
-# Interface de Login do Instagram
+# Interface de Teste Flexbox
 
-### Desafio HTML/CSS3 ⚠️:
+### Desafio HTML/CSS3 (Flexbox) ⚠️:
 ***
-  Reconstruir a página de login do Instagram, utilizando HTML e CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de responsividade.
+  Construir uma página de tema livre, utilizando HTML e CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de       responsividade.
 ***
 
 ### Resultado Final 👁️:
