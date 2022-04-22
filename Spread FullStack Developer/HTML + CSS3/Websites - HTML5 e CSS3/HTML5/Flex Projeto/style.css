@@ -66,7 +66,7 @@ header .menu{
     margin-bottom: 10px;
 }
 
-.texto-apresentacao a{
+.btn{
     background-color: #122A57;
     color: #fff;
     text-align: center;
@@ -125,14 +125,119 @@ header .menu{
 #servicos h2{
     color: #fff;
     font-size: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .list-servicos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .list-servicos .item-servico{
     text-align: center;
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 5px 10px;
+    color: #122A57;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.item-servico p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+#planos h2{
+    font-size: 32px;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #122A57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: space-between;
+    color: #fff;
 }
