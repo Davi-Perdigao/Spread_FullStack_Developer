@@ -1,80 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  height: 80vh;
-  align-items: center;
-  background-image: linear-gradient(
-    to right,
-    rgb(55, 65, 81),
-    rgb(17, 24, 39),
-    rgb(0, 0, 0)
-  );
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  color: #6366f1;
-  margin-bottom: 1.5rem;
-}
-
-p {
-  color: #b8bfc6;
-  font-style: italic;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-div button {
-  background-color: #b8bfc6;
-  border: 2px solid #1e293b;
-  border-radius: 50%;
-  color: #6366f1;
-  font-size: 16pt;
-  font-weight: 600;
-  text-align: center;
-  height: 40px;
-  width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(177, 225, 255);
 }
 
 button {
-  background-color: #b8bfc6;
-  border: 2px solid #1e293b;
-  border-radius: 5px;
-  color: #6366f1;
-  font-size: 14px;
-  font-weight: 600;
-  height: 30px;
-  width: 80px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid lightcoral;
+    background-color: rgb(241, 214, 214);
+    color: lightcoral;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
 }
 
-button:hover {
-  background-color: #6366f1;
-  color: #b8bfc6;
-}
 #counter {
-  display: flex;
+    display: flex;
 }
 
 #currentNumber {
-  display: flex;
-  align-items: center;
-  margin: 0 20px;
-  font-size: 25px;
-  font-weight: bold;
-  color: #cbd5e1;
-  margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
 }

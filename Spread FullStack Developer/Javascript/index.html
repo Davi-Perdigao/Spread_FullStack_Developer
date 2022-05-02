@@ -1,23 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Contador</title>
-  </head>
-  <body>
-    <main>
-      <h1>Contador em JS</h1>
-      <p>Clique no mais (+) para incrementar ou no menos (-) para subtrair do contador</p>
-      <div id="counter">
-        <button name="subtrair" onclick="decrement()">-</button>
+</head>
+<body>
+    <h1>Contador de Números</h1>
+    <p>Clique nos sinais para subtrair ou somar!</p>
+    <div id="counter">
+        <button name="subtrair" id="decrement">-</button>
         <span id="currentNumber">0</span>
-        <button name="adicionar" onclick="increment()">+</button>
-      </div>
-      <button class="reset">Reset</button>
-    </main>
+        <button name="adicionar" id="increment">+</button>
+    </div>
     <script src="assets/script.js"></script>
-  </body>
+</body>
 </html>
