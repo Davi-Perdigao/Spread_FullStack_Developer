@@ -16,9 +16,6 @@ button {
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    border: 2px solid rgb(12, 165, 192);
-    background-color: rgb(119, 239, 255);
-    color: rgb(12, 165, 192);
     font-size: 16pt;
     font-weight: 600;
     text-align: center;
