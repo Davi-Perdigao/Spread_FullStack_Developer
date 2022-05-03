@@ -10,7 +10,7 @@ increment.addEventListener("click",
     function increment(){
         count++;
         if(count <= 10){
-            currentNumberWrapper.innerHTML = count;
+            document.getElementById('increment').disabled = true;
         }
         if(count >= 0){
             currentNumberWrapper.style = "color: black;"
