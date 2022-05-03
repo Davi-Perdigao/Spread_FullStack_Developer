@@ -3,8 +3,6 @@ var count = 0
 var increment = document.getElementById('increment')
 var decrement = document.getElementById('decrement')
 
-// condição para contador funcionar 
-// 0 <= count =< 10
 
 increment.addEventListener("click",
     function increment(){
@@ -14,7 +12,7 @@ increment.addEventListener("click",
         }
 
     }
-)
+);
 
 decrement.addEventListener("click",
     function decrement(){
