@@ -9,7 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
 }
 
 button {
