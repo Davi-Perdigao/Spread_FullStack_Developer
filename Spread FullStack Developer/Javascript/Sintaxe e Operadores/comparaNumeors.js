@@ -13,7 +13,7 @@ function criaPrimeiraFrase(num1, num2) {
 		simNao = '';
 	}
 
-	return `${primeiraFrase} ${simNao} são iguais.`;
+	return `${primeiraFrase} ${simNao}são iguais.`;
 }
 
 function criaSegundaFrase(num1, num2) {
@@ -22,14 +22,18 @@ function criaSegundaFrase(num1, num2) {
 	let comparaVinte = 'menor';
 
 	if (soma > 10) {
-		comparaDez = 'maior';
+		comparaDez = 'maior do que';
 	}
 
 	if (soma > 20) {
-		comparaVinte = 'maior';
+		comparaVinte = 'maior do que';
 	}
 
-	return `Sua soma é ${soma}, que é ${comparaDez} do que 10 e ${comparaVinte} do que 20.`;
+    else {
+		comparaVinte = 'igual a';
+	}
+
+	return `Sua soma é ${soma}, que é ${comparaDez} 10 e ${comparaVinte} 20.`;
 }
 
 console.log(comparaNumeros(10, 10));
