@@ -82,6 +82,6 @@ Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinh
 1. Utilize a API `https://thatcopy.pw/catapi/rest` para fazer as chamadas com o método `fetch()`;
 2. Utilize seus conhecimentos na manipulação do DOM para criar a imagem e ativar o evento de clique do botão!
 
-## Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Desafios_DIO/Spread FullStack Developer/Javascript/Javascript Assíncrono/)
+## Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Desafios_DIO/Spread%20FullStack%20Developer/Javascript/Javascript Assíncrono/)
 
 ![catAPI](./api-cats.gif)
