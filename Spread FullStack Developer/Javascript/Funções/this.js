@@ -4,7 +4,7 @@ function calculaIdade(anos) {
     } anos de idade.`;
 }
 
-const someFriends = [
+const somePeople = [
     {
         nome: "Lucas",
         idade: 22,
@@ -20,5 +20,5 @@ const pessoa = {
     idade: 37,
 };
 
-console.log(calculaIdade.call(someFriends[1], 3)); //sem []
+console.log(calculaIdade.call(somePeople[1], 3)); //sem []
 console.log(calculaIdade.apply(pessoa, [8])); //[]
