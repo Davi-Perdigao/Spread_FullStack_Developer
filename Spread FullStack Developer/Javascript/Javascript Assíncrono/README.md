@@ -96,4 +96,4 @@ Nesta atividade, vamos criar uma página que carrega fotos aleatórias de gatinh
 
 ## Demo
 
-![catAPI](./demo.gif)
+![catAPI](./api-cats.gif)
