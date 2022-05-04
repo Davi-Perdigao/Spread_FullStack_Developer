@@ -5,12 +5,12 @@ function substituiPares (array){
             console.log(`Substituindo ${array[i]} para 0`);
             array[i] = 0;
         } else if (array[i] === 0) {
-			console.log('Você já vale 0!');
+			console.log('Esse número já vale 0!');
 		}
     }
     return array;
 };
 
-let arr = [0, 3, 4, 6, 80, 33, 23, 90];
+let arr = [0, 2, 4, 6, 10, 13, 25, 30];
 
 console.log(substituiPares(arr));
