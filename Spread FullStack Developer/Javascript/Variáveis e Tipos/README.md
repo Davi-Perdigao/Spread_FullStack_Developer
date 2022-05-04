@@ -9,7 +9,7 @@
 | Kebab Case  | kebab-case |
 | Pascal Case | PascalCase |
 
-Neste repositório você encontrará a atividade prática proposta pelo curso "Variáveis e Tipos" do Basecamp de Javascript da Digital Innovation One.
+Neste repositório você encontrará a atividade prática proposta pelo curso "Variáveis e Tipos" do Basecamp de Javascript da [Digital Innovation One](https://digitalinnovation.one/).
 
 ## Atividade 1
 
