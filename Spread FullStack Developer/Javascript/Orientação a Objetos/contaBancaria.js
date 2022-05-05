@@ -1,4 +1,4 @@
-class ContaBancaria {
+class contaBancaria {
 	constructor(agencia, numero, tipo) {
 		this.agencia = agencia;
 		this.numero = numero;
@@ -29,7 +29,7 @@ class ContaBancaria {
 	}
 }
 
-class ContaCorrente extends ContaBancaria {
+class contaCorrente extends contaBancaria {
 	constructor(agencia, numero, cartaoCredito) {
 		super(agencia, numero);
 		this.tipo = 'corrente';
@@ -45,14 +45,14 @@ class ContaCorrente extends ContaBancaria {
 	}
 }
 
-class ContaPoupanca extends ContaBancaria {
+class contaPoupanca extends contaBancaria {
 	constructor(agencia, numero) {
 		super(agencia, numero);
 		this.tipo = 'poupança';
 	}
 }
 
-class ContaUniversitaria extends ContaBancaria {
+class contaUniversitaria extends contaBancaria {
 	constructor(agencia, numero) {
 		super(agencia, numero);
 		this.tipo = 'universitária';
@@ -68,5 +68,5 @@ class ContaUniversitaria extends ContaBancaria {
 	}
 }
 
-const minhaConta = new ContaCorrente(1, 211, true);
-const contaUni = new ContaUniversitaria(2, 333);
+const minhaConta = new contaCorrente(1, 211, true);
+const contaUni = new contaUniversitaria(2, 333);
