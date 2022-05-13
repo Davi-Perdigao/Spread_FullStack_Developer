@@ -11,26 +11,26 @@ var createNewTaskElement = function (taskString) {
   //label
   var label = document.createElement("label");
   //input (text)
-  var editarInput = document.createElement("input");
+  var editInput = document.createElement("input");
   //button.edit
-  var editarButton = document.createElement("button");
+  var editButton = document.createElement("button");
   //button.delete
-  var deletarButton = document.createElement("button");
+  var deleteButton = document.createElement("button");
 
   label.innerText = taskString;
 
   checkBox.type = "checkbox";
-  editarInput.type = "text";
-  editarButton.innerText = "Editar";
-  editButton.className = "editar";
-  deletarButton.innerText = "Deletar";
-  deletarButton.className = "deletar";
+  editInput.type = "text";
+  editButton.innerText = "Edit";
+  editButton.className = "edit";
+  deleteButton.innerText = "Delete";
+  deleteButton.className = "delete";
 
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
-  listItem.appendChild(editarInput);
-  listItem.appendChild(editarButton);
-  listItem.appendChild(deletarButton);
+  listItem.appendChild(editInput);
+  listItem.appendChild(editButton);
+  listItem.appendChild(deleteButton);
   return listItem;
 };
 
@@ -46,25 +46,25 @@ var addTask = function () {
 };
 
 //Editando uma tarefa existente
-var editarTask = function () {
+var editTask = function () {
   console.log("Editando tarefa...");
-  console.log("Mudar 'editar' para 'salvar'");
+  console.log("Change 'edit' to 'save'");
 
   var listItem = this.parentNode;
 
-  var editarInput = listItem.querySelector("input[type=text]");
+  var editInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
-  var containsClass = listItem.classList.contains("editarMode");
+  var containsClass = listItem.classList.contains("editMode");
   if (containsClass) {
-    label.innerText = editarInput.value;
+    label.innerText = editInput.value;
   } else {
-    editarInput.value = label.innerText;
+    editInput.value = label.innerText;
   }
-  listItem.classList.toggle("editarMode");
+  listItem.classList.toggle("editMode");
 };
 
-//Deletando tarefa
-var deletarTask = function () {
+//Detando tarefa
+var deleteTask = function () {
   console.log("Deletando tarefa...");
 
   var listItem = this.parentNode;
@@ -100,16 +100,16 @@ addButton.addEventListener("click", addTask);
 addButton.addEventListener("click", ajaxRequest);
 
 var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
-  console.log("eventos lista de vinculação");
+  console.log("bind list item events");
   //selecionando ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
-  var editarButton = taskListItem.querySelector("button.editar");
-  var deletarButton = taskListItem.querySelector("button.deletar");
+  var editButton = taskListItem.querySelector("button.edit");
+  var deleteButton = taskListItem.querySelector("button.delete");
 
   //Vincular editTask ao botão de edição
-  editarButton.onclick = editarTask;
+  editButton.onclick = editTask;
   //Vincular deleteTask ao botão delete
-  deletarButton.onclick = deletarTask;
+  deleteButton.onclick = deleteTask;
   //Tarefa de vinculação concluída 
   checkBox.onchange = checkBoxEventHandler;
 };
