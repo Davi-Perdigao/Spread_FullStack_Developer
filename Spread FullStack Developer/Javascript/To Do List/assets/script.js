@@ -11,25 +11,25 @@ var createNewTaskElement = function (taskString) {
   //label
   var label = document.createElement("label");
   //input (text)
-  var editInput = document.createElement("input");
+  var editarInput = document.createElement("input");
   //button.edit
-  var editButton = document.createElement("button");
+  var editarButton = document.createElement("button");
   //button.delete
   var deletarButton = document.createElement("button");
 
   label.innerText = taskString;
 
   checkBox.type = "checkbox";
-  editInput.type = "text";
-  editButton.innerText = "Editar";
+  editarInput.type = "text";
+  editarButton.innerText = "Editar";
   editButton.className = "editar";
   deletarButton.innerText = "Deletar";
   deletarButton.className = "deletar";
 
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
-  listItem.appendChild(editInput);
-  listItem.appendChild(editButton);
+  listItem.appendChild(editarInput);
+  listItem.appendChild(editarButton);
   listItem.appendChild(deletarButton);
   return listItem;
 };
@@ -46,21 +46,21 @@ var addTask = function () {
 };
 
 //Editando uma tarefa existente
-var editTask = function () {
+var editarTask = function () {
   console.log("Editando tarefa...");
   console.log("Mudar 'editar' para 'salvar'");
 
   var listItem = this.parentNode;
 
-  var editInput = listItem.querySelector("input[type=text]");
+  var editarInput = listItem.querySelector("input[type=text]");
   var label = listItem.querySelector("label");
-  var containsClass = listItem.classList.contains("editMode");
+  var containsClass = listItem.classList.contains("editarMode");
   if (containsClass) {
-    label.innerText = editInput.value;
+    label.innerText = editarInput.value;
   } else {
-    editInput.value = label.innerText;
+    editarInput.value = label.innerText;
   }
-  listItem.classList.toggle("editMode");
+  listItem.classList.toggle("editarMode");
 };
 
 //Deletando tarefa
@@ -103,11 +103,11 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("eventos lista de vinculação");
   //selecionando ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
-  var editButton = taskListItem.querySelector("button.editar");
+  var editarButton = taskListItem.querySelector("button.editar");
   var deletarButton = taskListItem.querySelector("button.deletar");
 
   //Vincular editTask ao botão de edição
-  editButton.onclick = editTask;
+  editarButton.onclick = editarTask;
   //Vincular deleteTask ao botão delete
   deletarButton.onclick = deletarTask;
   //Tarefa de vinculação concluída 
