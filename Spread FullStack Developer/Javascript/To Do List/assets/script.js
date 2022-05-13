@@ -15,7 +15,7 @@ var createNewTaskElement = function (taskString) {
   //button.edit
   var editButton = document.createElement("button");
   //button.delete
-  var deleteButton = document.createElement("button");
+  var deletarButton = document.createElement("button");
 
   label.innerText = taskString;
 
@@ -23,14 +23,14 @@ var createNewTaskElement = function (taskString) {
   editInput.type = "text";
   editButton.innerText = "Editar";
   editButton.className = "editar";
-  deleteButton.innerText = "Deletar";
-  deleteButton.className = "deletar";
+  deletarButton.innerText = "Deletar";
+  deletarButton.className = "deletar";
 
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
   listItem.appendChild(editInput);
   listItem.appendChild(editButton);
-  listItem.appendChild(deleteButton);
+  listItem.appendChild(deletarButton);
   return listItem;
 };
 
@@ -64,7 +64,7 @@ var editTask = function () {
 };
 
 //Deletando tarefa
-var deleteTask = function () {
+var deletarTask = function () {
   console.log("Deletando tarefa...");
 
   var listItem = this.parentNode;
@@ -104,12 +104,12 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   //selecionando ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
   var editButton = taskListItem.querySelector("button.editar");
-  var deleteButton = taskListItem.querySelector("button.deletar");
+  var deletarButton = taskListItem.querySelector("button.deletar");
 
   //Vincular editTask ao botão de edição
   editButton.onclick = editTask;
   //Vincular deleteTask ao botão delete
-  deleteButton.onclick = deleteTask;
+  deletarButton.onclick = deletarTask;
   //Tarefa de vinculação concluída 
   checkBox.onchange = checkBoxEventHandler;
 };
