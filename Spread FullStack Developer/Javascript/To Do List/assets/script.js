@@ -21,9 +21,9 @@ var createNewTaskElement = function (taskString) {
 
   checkBox.type = "checkbox";
   editInput.type = "text";
-  editButton.innerText = "Edit";
+  editButton.innerText = "Editar";
   editButton.className = "edit";
-  deleteButton.innerText = "Delete";
+  deleteButton.innerText = "Deletar";
   deleteButton.className = "delete";
 
   listItem.appendChild(checkBox);
@@ -48,7 +48,7 @@ var addTask = function () {
 //Editando uma tarefa existente
 var editTask = function () {
   console.log("Editando tarefa...");
-  console.log("Change 'edit' to 'save'");
+  console.log("Mudar 'editar' para 'salvar'");
 
   var listItem = this.parentNode;
 
