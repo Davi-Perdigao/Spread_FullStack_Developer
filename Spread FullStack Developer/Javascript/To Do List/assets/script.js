@@ -63,7 +63,7 @@ var editTask = function () {
   listItem.classList.toggle("editMode");
 };
 
-//Detando tarefa
+//Deletando tarefa
 var deleteTask = function () {
   console.log("Deletando tarefa...");
 
@@ -103,8 +103,8 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
   console.log("eventos lista de vinculação");
   //selecionando ListItems children
   var checkBox = taskListItem.querySelector("input[type=checkbox]");
-  var editButton = taskListItem.querySelector("button.edit");
-  var deleteButton = taskListItem.querySelector("button.delete");
+  var editButton = taskListItem.querySelector("button.editar");
+  var deleteButton = taskListItem.querySelector("button.deletar");
 
   //Vincular editTask ao botão de edição
   editButton.onclick = editTask;
