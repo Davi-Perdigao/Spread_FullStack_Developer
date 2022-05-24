@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #3d5c8c;
+  background-color: #353c46;
   display: flex;
   height: 75vh;
   align-items: center;
@@ -49,8 +49,8 @@ button {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 15px;
-  width: 100px;
-  height: 30px;
+  width: 120px;
+  height: 40px;
   text-transform: uppercase;
   z-index: 1;
   position: relative;
@@ -64,7 +64,7 @@ button:after {
   top: 0;
   right: 0;
   z-index: -1;
-  background-color: #2dd4bf;
+  background-color: #2dd43b;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
@@ -90,14 +90,14 @@ button:active {
 
 table {
   color: #fff;
-  background-color: #274169;
+  background-color: #252f3f;
   width: 30rem;
   border-radius: 0.4em;
   padding: 1rem;
 }
 
 th {
-  color: #2dd4bf;
+  color: #3bf8df;
 }
 tr {
   text-align: center;
