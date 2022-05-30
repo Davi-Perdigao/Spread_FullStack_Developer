@@ -8,6 +8,7 @@
 ## JavaScript / TypeScript
 
 - [Estacionamento](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Estacionamento)
+- [To-Do List](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Spread%20FullStack%20Developer/Javascript/To%20Do%20List)
 
 ## Spread FullStack Developer
 
