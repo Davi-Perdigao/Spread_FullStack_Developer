@@ -5,6 +5,10 @@
 - [Interface Instagram](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Interface%20Instagram)
 - [Flex Projeto](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Flex%20Projeto)
 
+## JavaScript / TypeScript
+
+- [Estacionamento](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Estacionamento)
+
 ## Spread FullStack Developer
 
 - [Banco de Dados](https://github.com/Davi-Perdigao/Desafios_DIO/tree/main/Spread%20FullStack%20Developer/Banco%20de%20Dados)
