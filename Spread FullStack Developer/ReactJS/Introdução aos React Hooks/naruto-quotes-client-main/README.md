@@ -1,5 +1,5 @@
 # Naruto Quotes Client
-Naruto quotes generator client for DIO lesson.
+Simple app to generate random Naruto quotes using Python and Flask. Naruto quotes generator client for DIO lesson.
 
 ![screenshot](screenshot.png?raw=true "screenshot")
 
