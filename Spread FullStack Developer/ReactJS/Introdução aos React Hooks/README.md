@@ -2,6 +2,7 @@
 Simple app to generate random Naruto quotes using Python and Flask. Naruto quotes generator client for DIO lesson.
 
 ![screenshot](screenshot.png?raw=true "screenshot")
+![Foto Resultado1](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-1.png?raw=true)
 
 # Install
 Clone this repository and install it dependencies with this command:
