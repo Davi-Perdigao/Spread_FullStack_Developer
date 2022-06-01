@@ -1,8 +1,8 @@
-# Naruto Quotes Client
+# Naruto Quotes Generator Client
 
 ### Desafio ReactJs Hooks ⚠️:
 ***
-Aplicação que gera citações aleatórias de Naruto usando Python e Flask. Naruto quotes generator client for DIO lesson.
+Aplicação que gera citações aleatórias de Naruto usando Python e Flask.
 
 ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Spread%20FullStack%20Developer/ReactJS/Introdu%C3%A7%C3%A3o%20aos%20React%20Hooks/images/screenshot.png)
 ***
