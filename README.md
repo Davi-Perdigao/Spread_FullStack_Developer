@@ -2,11 +2,7 @@
 <img src="https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/logo-spread.png" width="200px"> 
 </div>
 <h1 align="center">SPREAD FullStack Developer</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/github/license/davi-perdigao/desafios-dio" alt="GitHub License" />
-  <img src="https://img.shields.io/github/languages/top/davi-perdigao/desafios-dio" alt="GitHub top language" />
-</p>
+<h4 align="center">O Bootcamp Spread Fullstack Developer é um programa de estudos intensivos para desenvolvedores que querem evoluir em sua jornada de desenvolvimento de software com uma base sólida em tecnologias essenciais de Front-End e Back-End.</h4>
 
 ## Módulos Bootcamp
 
