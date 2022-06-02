@@ -1,4 +1,6 @@
-# DESAFIOS - PLATAFORMA DIO
+# SPREAD FullStack Developer
+
+![Logo](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Logo-Spread.png)
 
 ## HTML + CSS (Flexbox)
 
