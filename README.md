@@ -1,8 +1,4 @@
-# SPREAD FullStack Developer
-
-<img src="https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Logo-Spread.png" width="30px">
-
-<!-- ![Logo](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Logo-Spread.png) -->
+# <img src="https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Logo-Spread.png" width="100px"> SPREAD FullStack Developer 
 
 ## HTML + CSS (Flexbox)
 
