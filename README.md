@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/logo-spread.png" width="200px"> 
+<img src="https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/logo-spread.png" width="175px"> 
 </div>
 <h1 align="center">SPREAD FullStack Developer</h1>
 <h4 align="center">O Bootcamp Spread Fullstack Developer é um programa de estudos intensivos para desenvolvedores que querem evoluir em sua jornada de desenvolvimento de software com uma base sólida em tecnologias essenciais de Front-End e Back-End.</h4>
