@@ -5,11 +5,11 @@
   Construir uma página de tema livre, utilizando HTML e CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de       responsividade.
 ***
 
-### Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Desafios_DIO/Flex%20Projeto/)
+### Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Spread_FullStack_Developer/Flex%20Projeto/)
 ***
- ![Foto Resultado1](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-1.png?raw=true)
- ![Foto Resultado2](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-2.png?raw=true)
- ![Foto Resultado3](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Flex%20Projeto/images/Resultado-3.png?raw=true)
+ ![Foto Resultado1](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Flex%20Projeto/images/Resultado-1.png)
+ ![Foto Resultado2](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Flex%20Projeto/images/Resultado-2.png)
+ ![Foto Resultado3](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Flex%20Projeto/images/Resultado-3.png)
 
 ***
 
