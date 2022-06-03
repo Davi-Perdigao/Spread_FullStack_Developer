@@ -5,9 +5,9 @@
   Reconstruir a página de login do Instagram, utilizando HTML e CSS com Flexbox, uma das abordagens de posicionamento de elementos mais utilizadas quando se trata de responsividade.
 ***
 
-### Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Desafios_DIO/Interface%20Instagram/)
+### Resultado Final 👁️:  [Página Web](https://davi-perdigao.github.io/Spread_FullStack_Developer/Interface%20Instagram/)
 ***
- ![Foto Resultado](https://github.com/Davi-Perdigao/Desafios_DIO/blob/main/Interface%20Instagram/img/projeto-instagram.png)
+ ![Foto Resultado](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Interface%20Instagram/img/projeto-instagram.png)
 
 ***
 
