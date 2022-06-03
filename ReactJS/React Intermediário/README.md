@@ -7,7 +7,7 @@ Este código foi produzido com o intuito de prover exemplos ao [curso da Digital
 ### `yarn start`
 
 Roda o app em modo de desenvolvimento.<br>
-Abra [http://localhost:3000](http://localhost:3000) para ver os exemplos da aula no browser.
+Abra o localhost para ver os exemplos da aula no browser.
 
 ### `yarn test`
 
