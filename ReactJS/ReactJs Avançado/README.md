@@ -1,6 +1,6 @@
 # advanced-reactJs-dio
 
-Curso avançado de ReactJS da Digital Innovation One
+Curso avançado de ReactJS feito na Digital Innovation One
 
 
 ## Aula 01
