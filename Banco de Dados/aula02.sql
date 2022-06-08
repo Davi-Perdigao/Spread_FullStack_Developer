@@ -19,12 +19,12 @@ SELECT * from pessoas;
 SELECT * from pessoa;
 
 INSERT INTO pessoas (nome, nascimento) VALUES
-('Eduardo', '1989-07-03');
+('Davi', '2002-03-17');
 
 SELECT * from pessoas;
 
 INSERT INTO pessoa (nome, nascimento) VALUES
-('Eduardo', '1989-07-03');
+('Davi', '2002-03-17');
 
 INSERT INTO pessoa (nome, nascimento) VALUES
 ('Pedro', '1995-07-17');
