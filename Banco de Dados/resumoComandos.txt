@@ -1,0 +1,43 @@
+CREATE TABLE
+
+Tipos: INT, VARCHAR, DATETIME
+
+Inserindo dados na tabela
+
+INSERT INTO - Indicar as colunas que serão preenchidas e os respectivos
+
+Selecionando dados
+
+SELECT - Definindo os campos visualizados
+
+Atualizando dados
+
+UPDATE - Alterando informações na tabela
+
+Cláusula WHERE
+
+WHERE - Define uma condição para nosso comando
+
+UPDATE pessoas SET nome = 'Davi Perdigão' WHERE id=1;
+
+Deletando dados
+
+DELETE FROM - Deleta as informações selecionadas
+
+DELETE FROM pessoas WHERE id=1;
+
+Primary KEY é única.
+
+Ordenando dados
+
+ORDER BY - Ordena a forma como as informações são exibidas
+
+SELECT * FROM pessoas ORDER BY nome;
+
+Agrupando dados
+
+GROUP BY - Agrupa as informações de acordo com o critério selecionado
+
+SELECT COUNT(qtd), GENERO FROM pessoas GROUP BY genero
+
+Modelo UNION - Unir várias consultas diferentes
