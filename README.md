@@ -11,18 +11,15 @@
 - [Javascript](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript)
 - [NodeJS](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/NodeJS)
 - [ReactJS](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/ReactJS)
-- [Desafios de Código](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Desafios%20de%20C%C3%B3digo)
 - [Materiais de Apoio](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Materiais%20de%20Apoio)
 
-## HTML + CSS (Flexbox)
+## Projetos / Desafios de Código
 
-- [Interface Instagram](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Interface%20Instagram)
-- [Flex Projeto](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Flex%20Projeto)
-
-## JavaScript / TypeScript
-
-- [Estacionamento](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Estacionamento)
+- [Desafios de Código](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Desafios%20de%20C%C3%B3digo)
 - [To-Do List](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/To%20Do%20List)
 - [Contador](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/Contador)
-- [Cat API](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/Javascript%20Ass%C3%ADncrono)
+- [Estacionamento](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Estacionamento)
 - [Light Mode/Dark Mode](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/D.O.M)
+- [Cat API](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/Javascript%20Ass%C3%ADncrono)
+- [Interface Instagram](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Interface%20Instagram)
+- [Flex Projeto](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Flex%20Projeto)
