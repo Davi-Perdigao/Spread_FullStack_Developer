@@ -1,0 +1,127 @@
+O Que é API? - Application Program Interface
+
+Pense em API como a camada que esconde as regras e possibilita uma comunicação externa.
+
+Facilita muito a integração
+
+Existem várias metodologias ( ou arquiteturas ), como por exemplo: SOA, Rest, uso por meio de SDK
+
+
+Restful: API que faz uso do Rest
+
+Características
+
+Trafego dos dados por JSON ( os antigos ainda usam xml )
+
+Padronização de endpoint’s
+
+Uso de HTTP Methods ( Get, Post, Put, Delete )
+
+Fácil entendimento ao iniciar uma integração
+
+
+O que você precisa saber para construir API's verdadeiramente Restful
+
+Http Methods
+
+Get: Sempre obtém os dados
+
+Post: Cria um novo registro ou Recurso
+
+Put: Atualiza um registro existente
+
+Delete: Remove um registro existente
+
+Padrões
+
+Get: /api/dev/user
+
+Post: /api/dev/user
+
+Put: /api/dev/user/{id}
+
+Delete: /api/dev/user/{id}
+
+Erros comuns
+
+Post: /api/dev/user/{id}
+
+Post: /api/dev/user/create
+
+Put: /api/dev/user
+
+Delete: /api/dev/user?id=2
+
+Status Codes
+
+Geralmente:
+
+2x…. = Sucesso
+
+4x…. = Erro no cliente
+
+5x…. = Erro server side
+
+Referência
+www.httpstatuses.com
+
+Status comuns:
+
+200 = OK
+
+401 = Unauthorized
+
+403 = Forbidden
+
+404 = Not found
+
+500 = Internal Server Error
+
+504 = Gateway TImeout
+
+
+Mãos na massa com Postman
+
+https://www.postman.com
+
+https://www.postman.com/downloads/
+
+NodeJS - Native
+
+var https = require('follow-redirects').https;
+var fs = require('fs');
+
+var options = {
+  'method': 'PUT',
+  'hostname': 'aceleracaoeveris-com-br.umbler.net',
+  'path': '/dao/module/users/601b24ecfc862000168175f3',
+  'headers': {
+    'Content-Type': 'application/json'
+  },
+  'maxRedirects': 20
+};
+
+var req = https.request(options, function (res) {
+  var chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function (chunk) {
+    var body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+
+  res.on("error", function (error) {
+    console.error(error);
+  });
+});
+
+var postData = JSON.stringify({
+  "username": "Nome alterado"
+});
+
+req.write(postData);
+
+req.end();
