@@ -1,0 +1,8 @@
+{
+    "database": {
+        "uri": "postgres://hxyfiadg:wW_IE5G_zq7TEvHvs7f_VMIdQWbaEsaZ@motty.db.elephantsql.com/hxyfiadg"
+    },
+    "authentication": {
+        "cryptKey": "my_salt"
+    }
+}
