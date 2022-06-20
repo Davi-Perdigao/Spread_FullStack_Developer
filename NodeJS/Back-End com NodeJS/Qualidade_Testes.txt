@@ -1,0 +1,165 @@
+O que é qualidade?
+
+- Não é fácil indicar se o código tem ou não qualidade;
+- Cada time/projeto define o que é qualidade e quais serão as boas práticas para cada projeto/demanda;
+- É importante que esta "fórmula" de qualidade seja definida logo no começo do projeto;
+- Como cada desenvolvedor tem sua maneira de escrever código, definir estas boas práticas no início do projeto é muito importante;
+- Alguns conceitos precisam ser seguidos para não haver problemas no futuro;
+
+Legibilidade
+
+- Muitos problemas surgem da falta de legibilidade do código;
+- Não entender o que determinado código está fazendo, muitas vezes nos faz criar algo que já existe ou gera retrabalho que pode transformar-se em um problema no futuro.
+
+
+Como o código pode ser legível?
+
+- Ter o menor número de linhas possível, facilitando o entendimento e a leitura do que o código faz;
+- Nomes de classes, constantes e funções devem ter declarações expressivas, indicando o que elas fazem ou representam (ex. a função calculaSalario deve calcular o salário);
+- Ser legível, no sentido de que não só apenas a máquina entenda, mas que qualquer pessoa entenda;
+- Desde a estrutura até a nomenclatura, deve haver organização.
+
+
+Manutenibilidade
+
+Envolve três principais características:
+
+- Estabilidade: a capacidade de manter um código estável, ligada a fatores desde a arquitetura ao código em si (ex. Funções com responsabilidades únicas);
+- Flexibilidade: criar pensando em algo extensivo para novas funcionalidades (ex. Uma modal com diferentes cores, formas e tamanhos);
+- Usabilidade: evitas duplicidade de código e garantir que ele entregue o mesmo resultado, independente do contexto;
+
+
+Princípios da Engenharia de Software
+
+- Guia para criar código legíveis, reutilizáveis e refatoráveis;
+- Orientações que não precisam ser rigorosamente seguidas, mas qe foram usadas em códigos durante muitos anos;
+- Critérios para avaliar a qualidade do código Javascript que você e seu time produzem;
+
+Código Limpo - Javascript
+
+Referência: https://github.com/felipe-augusto/clean-code-javascript
+
+
+Ferramentas de Lint
+
+LINT
+- O termo lint surgiu em programação da necessidade de implementar algum tipo de checagem automática para previnir e/ou solucionar erros enquanto escrevemos codigos;
+- Lint ou Linter é um programa que executa checagem de código estático em procura de erros programáticos e estilísticos;
+- Depura o código em busca de possíveis bugs, verifica erros de síntaxe, complexidade ciclomática e de código.
+
+
+Exemplos de erros programáticos:
+
+- Falta de ";" quando requerido;
+- Variáveis declaradas e não usadas;
+- Uso de variáveis antes de declaradas;
+- Execução de código depois de declarado retorno em funções;
+- Uso de imports descontinuados ou não seguros;
+- Loops infinitos;
+
+Exemplos de erros de estilo:
+
+- Espaçamento indevido;
+- Falta de identação;
+- Ultrapassagem de limites de caracteres por linha;
+- Uso misto de tipos de aspas (duplas e simples);
+
+
+ESLint
+
+https://eslint.org
+
+O que é o ESLint?
+
+- É um projeto open-source criado por Nicholas C. Zakas em 2013;
+- É uma ferramenta "plugável" para linting em Javascript;
+- Já vem com regras padrão para análise de código;
+- Novas regras podem ser adicionadas ou desativadas de acordo com a necessidade;
+
+
+npm install eslint
+
+./node_modules/bin/eslint --init
+
+Desenvolvimento guiado por testes
+
+- O TDD (Test Driven Development) é um processo de software que visa o feedback rápido e validação do comportamento da aplicação;
+- Os testes tornam-se consequências do processo, pois determinam o comportamento esperado da implementação;
+- É dividido em ciclos que são conhecidos como: Red, Green e Refactor;
+
+
+Construindo APIs Testáveis com Node.js
+
+https://leanpub.com/construindo-apis-testaveis-com-nodejs
+
+
+Ciclos do TDD
+
+RED
+
+- O teste é criado antes da funcionalidade ser implementada;
+- O teste deve quebrar, pois a implementação não existe;
+- Nesta fase também é verificado erros de sintáxe e semântica;
+
+
+GREEN
+
+- A funcionalidade é adicionada para que o teste passe;
+- A lógica ainda não é necessária, apenas que atenda os requisitos do teste;
+- Podem ser adicionados TODOs, FIXMEs e dados estáticos, sendo o suficiente para o teste passar;
+
+
+REFACTOR
+
+- A lógica necessária é adicionada ao código;
+- Com o teste validado nos ciclos anteriores, garantirá que a funcionalidade está sendo implementada corretamente;
+- Devem ser removidos os dados estáticos e ser feita a implementação real para que o teste volte a passar;
+
+
+
+Ciclos do TDD
+
+Vermelho - Escreve o teste que irá falhar
+
+Verde - Implementa o suficiente para passar
+
+Refatora - Refatora com a lógica necessária sem mudar o comportamento
+
+
+
+Pirâmide de Testes
+
+- Conceito criado por Mike Cohn, escritor do livro Succeeding with Agile;
+- Propõe mais testes de baixo nível(testes de unidade), testes de integração e os testes que envolvem interfaces;
+
+
+		    UI
+slow	_______________________________       $$$
+		INTEGRATION
+	________________________________
+		UNIT
+fast	________________________________     $
+	
+	
+
+TIPOS DE TESTES
+
+
+UNIDADE (UNIT TESTS)
+
+- São de baixo nível, com foco em pequenas partes do software;
+- Tendem a ser mais rapidamente executados quando comparados com outros testes, pois testam partes isoladas;
+- O que define uma unidade é o comportamento e a facilidade de ser isolada das suas dependências;
+
+
+INTEGRAÇÃO (INTEGRATION TESTS)
+
+- Servem para verificar se a comunicação entre os componentes de um sistema está ocorrendo conforme o esperado;
+- Diferente dos testes de unidade, deve ser testado o comportamento da interação entre as unidades;
+- O teste pode ser em qualquer nível, seja a interação entre camadas, classes ou até mesmo serviços;
+
+
+INTEGRAÇÃO DE CONTRATO (INTEGRATION CONTRACT TESTS)
+
+- Ganharam força devido ao crescimento das APIs e dos micro serviços;
+- Garante que os dados que são consumidos de serviços externos continuam compatíveis e funcionando;

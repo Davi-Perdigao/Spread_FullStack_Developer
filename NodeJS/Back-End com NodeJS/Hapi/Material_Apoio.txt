@@ -1,0 +1,54 @@
+O que é o Hapi?
+
+- Um framework para construir aplicações e serviços;
+- Similar ao Express.js;
+- Open-Source;
+- Criado por Eran Hammer, arquiteto de Plataforma Móvel no Walmart;
+- Permite que os desenvolvedores concentrem-se em escrever lógica de aplicativo reutilizável em vez de gastar tempo construindo infraestrutura;
+
+Funcionalidades do Hapi
+
+- Authentication e Authorization: esquemas e estratégias de autenticação e autorização;
+- Armazenamento em cache: cache do lado do cliente e do servidor (catbox);
+- Roteamento: permite configurar como o aplicativo da Web ou rotas da API devem ser exibidas.
+- Validação: validação de schema de objetos (Joi);
+- Cookies: opção de configuração para fazer uso de cookies.
+- Logging: métodos nativos para geração de logs;
+- Tratamento de Erros: conjunto de utilitários para retornar objetos de erro compatíveis com HTTP(Boom);
+- Monitoramento de Processos: monitorar e reportar uma variedade de eventos (Good).
+
+Hapi vs Express
+
+Express
+
+- Um pouco menos opinativo que o Hapi, sendo menos abstraído do Node;
+- Parece uma aplicação nativa em Node.js;
+- Desenvolvedores mais experientes o preferem por sua familiaridade;
+- Usa middlewares para fornecer acesso ao pipeline de solicitação/resposta;
+
+Hapi
+
+- Tem uma estrutura "padrão" para ser seguida;
+- Implementação mais abstrata do Node;
+- Usa plugins para extender suas funcionalidades;
+- Existe geralmente um plugin em Hapi para cada middleware no Express;
+
+Atividade Prática
+
+Folder node-hapijs/
+
+npm install
+
+sudo ./runDocker.sh
+
+npm start
+
+Exercício
+
+- Criar uma rota na API para "/posts"
+- Criar um schema usando Mongoose com os campos:
+	- title (String);
+	- content (String);
+	- author (String);
+	- publishDate (Date).
+- Implementar os endpoints para cada operação no banco de dados (CRUD).

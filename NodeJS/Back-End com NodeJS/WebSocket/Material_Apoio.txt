@@ -1,0 +1,63 @@
+O que é e como funciona o WebSocket
+
+Antes do Websocket
+
+Requisições HTTP Tradicionais
+
+
+Um cliente requisita dados e o servidor responde passando os dados solicitados:
+
+
+Server-side Systems                                Browser-Client
+
+				    <---              User Interface
+Data-Store <- -> Web Server          http request
+			         
+			             ---->
+			         http response
+
+
+
+Requisições AJAX (XMLHttpRequest / fetch)
+
+Possibilidade de fazer conexões entre um cliente e servidor de forma bidirecional:
+
+
+BROWSER			HTTP Requests ->			SERVER
+UI   -> AJAX							Scripts <- -> Database
+	AJAX
+     <- CALLBACK       <= Data(JSON, XML, Text)
+     DOM Updates
+			
+
+POOLING
+
+- O cliente faz requisições em busca de novos dados regularmente;
+- Pode ser feito de duas maneiras: Short Polling e Long Polling;
+
+
+Short Pooling
+
+Requisições AJAX feitas em intervalos de tempos fixos:
+
+
+
+Long Pooling
+
+Mantém a conexão HTTP aberta até o servidor ter dados disponíveis para passar para o cliente.
+
+
+O que é um Websocket?
+
+- Uma aplicação TCP que escuta uma porta de um servidor que segue um protocolo específico;
+- Estabelece uma conexão com o navegador se comunica diretamente com ele;
+- Define um canal de comunicação full-duplex através de um único socket através da Web;
+- A conexão é estabelecida uma única vez e a comunicação entre o servidor e o navegador torna-se contínua;
+- Usado em aplicações que requerem atualizações regulares e rápidas a partir de um WebServer (jogos multiplayer, chat, etc.)
+
+Socket.IO
+
+- Oferece uma API simples baseada em eventos;
+- Permite a comunicação entre o servidor e o cliente em tempo real;
+- Foi desenvolvido em Javascript e funciona tanto no Front-end quanto no Back-end (Node.js);
+- O mecanismo padrão é o Websockets, com fallbacks em Flash e Ajax;

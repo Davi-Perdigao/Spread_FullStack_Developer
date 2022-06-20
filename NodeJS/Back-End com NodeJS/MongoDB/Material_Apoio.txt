@@ -1,0 +1,98 @@
+SQL vs NoSQL
+
+- A velocidade geralmente é o fator mais importante na decisão de qual banco utilizar;
+- Existem muitas opções de banco de dados NoSQL com diferentes funcionalidades que podem ser muito úteis.
+
+O que é o SQL?
+
+- Sigla para "Structured Query Language" (Linguagem de Consulta Estruturada).
+- É uma linguagem de consulta a banco de dados relacionais;
+- Executa comandos para criar, consultar, atualizar e excluir informações no seu banco de dados (CRUD).
+- Segue uma modelagem relacional, pelo fato de que todos os dados são guardados em tabelas.
+
+
+O que é NoSQL?
+
+- Sigla para "Not Onlye SQL" (Não apenas SQL);
+- É o termo utilizado para banco de dados não relacionais de alto desempenho, onde geralmente não é utilizado o SQL como linguagem de consulta;
+- Criado para ter uma perfomance melhor e uma escalabilidade mais horizontal;
+
+Diferenças entre NoSQL e SQL
+
+- O NoSQL agrupa toda a informação e a guarda no mesmo registro;
+- No SQL você precisa ter o relacionamento entre várias tabelas para ter a informação (entidade e relacionamento);
+
+
+SQL Terms / Concepts
+
+Database
+	tables
+	rows
+	columns
+
+
+MongoDB Terms / Concepts
+
+Database
+	collections
+	documents (BSON)
+	fields
+
+- O SQL tem certa dificuldade em conciliar a demanda por escalabilidade;
+- No NoSQL, deve-se levar em consideração a modelagem do sistema;
+- Um ponto forte do SQL é quanto à consistência das informações;
+- O NoSQL garante o último valor atualizado, se não for realizada nenhuma atualização antes da consulta;
+- Quanto à segurança, ambos estão suscetíveis a ataques.
+
+
+E agora: SQL ou NoSQL?
+
+- O NoSQL tem muitas vantagens para ser utilizado, mas não é preciso utilizá-lo em todas as situações;
+- Em muitos sistemas, você pode (e até deve) usar o modelo relacional (SQL);
+- O NoSQL é mais indicado para aqueles sistemas que tenham necessidades maiores de armazenamento e desempenho;
+- O mais comum é usar uma arquitetura híbrida, aproveitando o melhor dos dois modelos.
+
+
+O que é o MongoDB?
+
+- Banco de dados orientado a documentos (document-based) no formato JSON.
+- É o mais usado no mercado;
+- Não possui como restrição a necessidade de ter as tabelas e colunas criada previamente;
+- É possível armazenar registros sem preocupar-se com a estrutura de dados (número de campos, tipos, etc);
+- Guarda dados em documentos ao invés de tabelas;
+- Os documentos são agrupados em collections;
+- Um conjunto de collections forma um banco de dados;
+
+{
+	name: "Sue",                <- field: value
+	age: 26,		    <- field: value
+	status: "A",	            <- field: value
+	groups: ["news", "sports"]  <- field: value
+
+}
+
+
+Recursos do MongoDB
+
+- Sharding: usado para dividir os dados de uma collections entre mais de um servidor;
+- Capped Collections: collections com tamanhos predefinidos e com conteúdo rotativo;
+
+
+Mongoose
+
+- Solução baseada em esquemas para modelos os dados de uma aplicação;
+- Possui sistema de conversão de tipos, validação, criação de consultas e hooks para lógica de negócios;
+- Fornece um mapeamento de objetos do MondoDB similar ao ORM (Object Relational Mapping), conhecido como ODM (Object Data Mapping);
+- Traduz os dados do banco de dados para objetos Javascript para que sejam utilizados pela aplicação.
+
+Atividade Prática
+
+Folder node-mongoose/
+
+npm install
+
+sudo ./runDocker.sh
+
+npm start
+
+https://www.postman.com

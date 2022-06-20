@@ -1,0 +1,156 @@
+https://www.postgresql.org
+
+Introdução ao Banco de Dados Postgresql
+
+- Banco de Dados Relacional;
+- Open-source;
+- Suporte a funcionalidades avançadas:
+	- Tipo UUID
+	- PostGIS (Geolocalização)
+	- Unaccent (remover acentos na pesquisa)
+
+Utilizando o Postgresql
+
+- Criação de Tabelas;
+- Inserção de Dados;
+- Consulta de Dados.
+
+
+pgAdmin: https://www.pgadmin.org
+
+http://127.0.0.1/pgadmin4
+
+Terminal
+
+sudo -i -u postgres
+
+git checkout passo1
+
+
+sql/create.sql
+sql/insert.sql
+sql/select.sql
+
+Docker
+
+docker compose up
+
+Terminal
+
+psql -h localhost -d postgres
+
+\dt - lista tabelas
+
+
+Utilizando Node.js com PostgreSQL
+
+Driver de Conexão
+
+- Para conectar a um banco utilizamos um driver (pg)
+- Exemplos de criação de tabelas;
+- Exemplos de queries.
+
+
+git checkout passo2
+
+Driver de conexão:
+
+npm install --save pg
+
+Folder: js/
+
+_database.js
+
+const client = new pg.Client({
+  user: 'postgres',
+  host: 'localhost',
+  database: 'postgres',
+  password: 'postgres',
+  port: 5432,
+})
+
+module.exports = client
+
+1_drop.js
+
+2_create.js
+
+3_insert.js
+
+4_select.js
+
+Introdução a ORMs e Sequelize
+
+ORM - Mapeamento Objeto-Relacional
+
+- ORMs, o que são?
+
+- Exemplos:
+	- Hibernate (Java)
+	- DataMapper(Ruby)
+	- Sequelize (Node)
+	
+	
+Sequelize
+
+https://sequelize.org
+
+- Compatível com os bancos de dados:
+	- Mysql;
+	- SqlLite
+	- Postgresql
+	- SQL Server
+- Versátil
+- Robusto
+
+git checkout passo3
+
+Folder sequelize/
+
+npm install --save sequelize
+
+
+_database.js
+
+const Sequelize = require('sequelize');
+
+const sequelize = new Sequelize({
+  host: 'localhost',
+  database: 'postgres',
+  username: 'postgres',
+  password: 'postgres',
+  dialect: 'postgres',
+  port: 5432,
+  logging: true
+});
+
+module.exports = sequelize
+
+// Test DB Conenction //
+async function test(){
+  try{
+      let result = await sequelize.authenticate()
+      console.log("Sequelize realizou a conexão com o banco de dados com sucesso!")
+  }
+  catch(error){
+      console.error("Houve um erro ao conectar com o banco de dados:")
+      console.error(error)
+      process.exit()
+  }
+}
+
+test()
+
+node sequelize/_database.js
+
+Folder models/
+
+Folder sequelize/
+
+1_create.js
+
+2_insert.js
+
+3_select.js
+
+4_select_advanced.js

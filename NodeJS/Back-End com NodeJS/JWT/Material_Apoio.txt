@@ -1,0 +1,104 @@
+O que é o JWT?
+
+- Sigla para "JSON Web Token"
+- É um padrão (RFC-7519) que define como transmitir e armazenar objetos JSON de forma compacta e segura entre diferentes aplicações.
+- Os dados podem ser validados a qualquer momento pois o token é assinado digitalmente.
+- É formado por trÊs seções: Header, Payload e Signature.
+
+Como é formado o JWT?
+
+Header
+
+- Objeto JSON que define informações sobre o tipo do token (typ)
+- O algoritmo de criptografia usado em sua assinatura(alg)(normalmente HMAC SHA256 ou RSA)
+{
+	"alg":"HS256",
+	"typ": "JWT"
+}
+
+Payload
+
+- Objeto JSON com as Claims (informações) da entidade trada (ex: o usuário autenticado)
+- O algoritmo de criptografia usado em sua assinatura (alg) (normalmente HMAC SHA256)
+- Podem ser de 3 tipos: Reserverd claims, Public claims e Private claims.
+
+Payload: Reserved Claims
+
+Atributos não obrigatórios (mas recomendados) que são usados na validação do token pelos protocolos de segurança das APIs:
+- sub (subject)*: Entidade à quem o token pertence (ex. ID do usuário)
+- iss (issuer)*: Emissor do token
+- exp (expiration)*: Timestamp de expiração do token
+- iat (issued at): Timestamp de criação do token
+- aud(audience): Destinatŕio do token (a aplicação que irá usá-lo) 
+
+* Atributos mais usados.
+
+
+Payload: Public Claims
+
+Atributos usados pela aplicações (ex. usuário autenticado):
+- name;
+- roles;
+- permissions;
+
+
+Payload: Private Claims
+
+Atributos definidos especialmente para compartilhar informações entre aplicações:
+
+{
+	"sub": "1234567890",
+	"name": "John Doe",
+	"admin": true
+
+}
+
+Por segurança, recomenda-se não armazenar informações confidenciais ou sensíveis no token.
+
+Signature
+
+- A concatenação dos hashes gerados a partir do Header e Payload usando base64UrlEncode, com uma chave secreta ou certificado RSA;
+- Garante a integridade do Token, se ele foi modificado e se realmente foi gerado por você;
+- Previne ataques do tipo man-in-the-middle: o invasor poderia interceptar a requisição e modificar seu conteúdo;
+- Apenas quem está de posse da chave pode criar, alterar e validar o token;
+
+
+Exemplos de Token JWT
+
+Header eyJhbGci0iJIUz....eyJz
+Payload dWIiOiIxMjM0NTY....TJVA950rM7E2cBab3
+Signature 0RMHrHDcEfxjoYZgeFONGh7HgQ
+
+Como o Token é usado?
+
+- O usuário faz login em um serviço de autenticação e um token JWT é criado e retornado para o client;
+- O Token é enviado para as APIs através do header Authorization de cada requisição HTTP, com a flag Bearer.
+
+Authorization: Bearer <token>
+
+
+Como o Token é usado?
+
+- Com o Token, a API não precisa consultar as informações do usuário no banco de dados.
+
+
+Browser         -> Server
+
+1. POST /users/login with username and passord
+2. Creates a JWT with a secret
+3. Returns the JWT to the Browser
+4. Sends the JWT on the Authorization Header
+5. Check JWT signature. Get user information from the JWT.
+6. Sends response to the client.
+
+
+Atividade Prática
+
+Folder node-jwt
+
+
+npm install
+
+$ ./generateKeys.sh
+
+npm start
