@@ -26,4 +26,4 @@
 - [Encurtador de URL](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Encurtador%20de%20URL)
 
 ## Conclusão do Bootcamp: 20/06/2022
-![Certificado de Conclusão](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Certificado/Conclus%C3%A3o.png)
+![Certificado de Conclusão](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/blob/main/Certificado%20Conclus%C3%A3o/Conclus%C3%A3o.png)
