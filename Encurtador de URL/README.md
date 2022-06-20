@@ -1,7 +1,5 @@
 # Construindo Encurtador de URL
 
-Desafio de Projeto do **Bootcamp Bootcamp Spread Fullstack Developer**, promovido pela [Digital Innovation One](https://www.dio.me).
-
 ### Desafio ⚠️:
 ***
     Desenvolvendo um encurtador de URL a partir da construção de uma API com NodeJS, Typescript e MongoDB para a base de dados.
