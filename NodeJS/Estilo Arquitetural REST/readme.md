@@ -4,7 +4,7 @@ Criação de um **microserviço de autenticação** que poderá compor a sua cai
 
 ## Composição do nosso projeto
 
-Neste projeto Temos alguns **Endpoints Base** que podem ser extendidos da forma mais adequada para seu contexto. 
+Neste projeto temos alguns **Endpoints Base** que podem ser extendidos da forma mais adequada para seu contexto. 
 
 São eles:
 
