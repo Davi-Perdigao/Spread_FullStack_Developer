@@ -23,3 +23,4 @@
 - [Cat API](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Javascript/Javascript%20Ass%C3%ADncrono)
 - [Interface Instagram](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Interface%20Instagram)
 - [Flex Projeto](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Flex%20Projeto)
+- [Encurtador de URL](https://github.com/Davi-Perdigao/Spread_FullStack_Developer/tree/main/Encurtador%20de%20URL)
