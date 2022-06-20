@@ -1,0 +1,103 @@
+https://nodejs.org/en/
+
+V8 + libuv = Node.js
+
+Características do Node.js
+
+- É um ambiente de servidor de código aberto;
+- Gratuito para uso;
+- É executado em várias plataformas (Windows, Linux, Unix, Mac OS X, etc.)
+- É Javascript no servidor;
+- Evento Loop (Loop de Eventos);
+- Assincronicidade;
+- Processos de I/O não bloqueante;
+- Alta perfomance (quando bem estruturado);
+
+Event Loop
+
+
+Instalação do Node.js
+
+https://nodejs.org/en/download/
+
+sudo apt-get install nodejs
+
+node index.js
+
+Criando uma API com Express
+
+O que é o Express?
+
+- Framework web minimalista e rápido para Node.js;
+- Fornece uma estrutura e conjunto de recursos robustos para aplicações web e mobile;
+- Dispõe de métodos utilitários HTTP e middlewares para criar uma API rápida e segura;
+
+
+npm install express --save
+
+npm init
+
+O que é uma CLI?
+
+- Ferramenta que disponibiliza uma interface de linha de comando para executar tarefas no terminal;
+- Normalmente são criadas através de Shell Script;
+- Automatiza uma tarefa através de um arquivo executável;
+- Pode ser facilmente distribuído em várias plataformas;
+
+GUI X CLI
+
+GUI - Copiando um arquivo:
+
+1- Abrir o gerenciador de arquivos;
+2- Navegar entre os diretórios até achar o desejado;
+3- Selecionar todos os arquivos que terminam com ".js";
+4 - Copiar os arquivos;
+5- Trocar de diretório no gerenciador de arquivos;
+6- Colar os arquivos;
+
+CLI
+
+cp *.js ~/Documentos/PastaDestino
+
+Por que criar uma CLI em Node.js?
+
+- A popularidade do Node.js dá-se ao rico ecossistema de pacotes;
+- Mais de 900.000 pacotes registrados no NPM;
+- CLIs podem ser facilmente distribuídas e consumidas em múltiplas plataformas;
+- Explorar o ecossistema, incluindo sua grande quantidade de pacotes focados em CLI;
+
+https://www.npmjs.com
+
+npm adduser
+npm publish
+
+O que é Commander.js?
+
+- Ferramenta completa para criação de CLIs em Node.js;
+- Definição de comandos, parâmetros de opções e execução de ações;
+- Descrição para cada comando e menu de ajuda com exemplos de uso;
+
+O que é o Pug?
+
+- É uma template engine de alta perfomance;
+- Implementado com Javascript para Node.js e Browsers;
+- Conhecido anteriormente como "Jade";
+- Pode ser integrado com Express.
+
+Gerando um Template
+
+https://pugjs.org/api/getting-started.html
+
+Prós e Contras
+
+Prós
+
+- Escrever mais HTML com menos código;
+- Código parecido com parágrafos, o que a legibilidade do código simplifica projetos com vários desenvolvedores;
+- Não há fechamento de tags; É usado indentação para identificar aninhamento de tags;
+- É possível escrever Javascript dentro dos templates;
+
+Contras
+
+- Espaços em branco importam e muito! Um mínimo erro de indentação pode trazer grandes problemas para seu código!
+- Não é possível usar código HTML de qualquer lugar; É preciso converter para Pug antes de usar.
