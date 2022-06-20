@@ -6,7 +6,7 @@
 ***
 
 ### Resultado Final 👁️:
-
+***
 ***Post Feito no Insomnia***
 ![Insomnia POST](./url-shortener-dio/assets/insomnia-post.png)
 
@@ -17,5 +17,6 @@
 
 ***Resultado Final (MongoDB Atlas Database)***
 ![Collection no MongoDB Atlas Database](./url-shortener-dio/assets/collection.png)
+***
 
 - Desafio prático da plataforma [Digital Innovation One](https://web.digitalinnovation.one/home "Digital Innovation One")
